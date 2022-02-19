@@ -1,0 +1,12 @@
+package api.io.string;
+
+import java.io.*;
+
+public class Test01 {
+
+	public static void main(String[] args) {
+		File target = new File("files","string1.txt");
+
+	}
+
+}

@@ -1,0 +1,5 @@
+package api.util.collection.map;
+
+public class Mobile {
+
+}

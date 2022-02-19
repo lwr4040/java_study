@@ -1,0 +1,9 @@
+package api.util.collection.list;
+
+public class Test03 {
+
+	public static void main(String[] args) {
+		List<Integer> list = new ArrayList<>();
+	}
+
+}

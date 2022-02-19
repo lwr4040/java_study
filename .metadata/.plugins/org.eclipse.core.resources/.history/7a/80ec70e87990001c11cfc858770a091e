@@ -1,0 +1,18 @@
+package api.util.scanner;
+
+import java.util.Scanner;
+
+public class Test02 {
+
+	public static void main(String[] args) {
+		//.next()는 듸어쓰기를 기준으로 단어를 구별한다.
+		String text = "빨-주-노-초/파-남-보";
+		
+		Scanner s1 = new Scanner(text);
+		while(s1.hasNext()) {
+			System.out.println(s1.next());
+		}
+
+	}
+
+}

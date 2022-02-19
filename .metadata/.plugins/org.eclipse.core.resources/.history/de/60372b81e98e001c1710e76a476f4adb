@@ -1,0 +1,22 @@
+package api.util.collection.set;
+
+import java.util.*;
+
+public class Test01 {
+
+	public static void main(String[] args) {
+		
+		//Set
+		// - 데이터 중복을 허용하지 않고 데이터의 저장순서가 없는 컬렉션
+		// - 데이터의 전체를 관리하는 용도로 많이 사용된다.
+		
+		//제너릭
+		// - 내가 원하는 타입으로 만들어주는 문법
+		// - 고급프로그래밍으로 가면 갈수록 필요만 문법..
+		
+		//HashSet
+		Set<String> set = new HashSet<>();
+
+	}
+
+}

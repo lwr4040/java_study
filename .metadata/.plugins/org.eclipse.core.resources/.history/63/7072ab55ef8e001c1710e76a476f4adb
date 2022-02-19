@@ -1,0 +1,11 @@
+package api.util.collection.set;
+
+public class Test03 {
+
+	public static void main(String[] args) {
+		// 이름과 전화번호를 저장할수 있는 클래스를 만들고 set으로 관리하기...
+		// 데이터 추가 , 삭제 , 보기
+
+	}
+
+}

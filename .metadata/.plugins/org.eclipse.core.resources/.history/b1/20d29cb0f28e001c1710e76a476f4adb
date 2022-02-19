@@ -1,0 +1,26 @@
+package api.util.collection.set;
+
+import java.util.*;
+
+public class Test03 {
+
+	public static void main(String[] args) {
+		// 이름과 전화번호를 저장할수 있는 클래스를 만들고 set으로 관리하기...
+		// 데이터 추가 , 삭제 , 보기
+		//단, 같은이름은 추가가 불가능 .. 삭제도 이름이 동일할경우만 삭제
+		Set<Info> set = new HashSet<>();
+		Scanner sc =new Scanner(System.in);
+		while(true) {
+			boolean check = true;
+			Iterator<Info> it = null;
+			String name = null;
+			String tel = null;
+			System.out.print("1.추가  2.삭제  3.보기  4.종료\n입력 :");
+			int select = sc.nextInt();
+			if(select == 1) {
+				
+			}
+		}
+	}
+
+}

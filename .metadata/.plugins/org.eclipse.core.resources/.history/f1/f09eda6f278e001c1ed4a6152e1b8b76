@@ -1,0 +1,29 @@
+package api.util.collection.list;
+
+import java.util.Scanner;
+
+public class Test04 {
+
+	public static void main(String[] args) {
+		/*
+		 * [문제] 사다리 게임 만들기
+			아래와 같은 형식이 되도록 사다리 추첨 게임을 구현하세요
+			(예상 결과)	인원수 : 3
+			이름1 : A
+			이름2 : B
+			이름3 : C
+			항목1 : 1
+			항목2 : 2
+			항목3 : 3
+			추첨 결과는 다음과 같습니다
+			A → 3
+			B → 1
+			C → 2
+		 */
+		Scanner sc = new Scanner(System.in);
+		System.out.print("인원 수 :");
+		int su = sc.nextInt();
+		sc.nextLine();
+	}
+
+}

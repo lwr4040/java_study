@@ -1,0 +1,15 @@
+package api.io.singlebyte;
+
+import java.io.File;
+import java.io.*;
+
+public class Test02 {
+
+	public static void main(String[] args) {
+		File target = new File("files","single.txt");
+		
+		InputStream in = new FileInputStream(target);
+
+	}
+
+}

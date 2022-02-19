@@ -1,0 +1,14 @@
+package api.io.string;
+
+import java.io.*;
+
+public class Test03 {
+
+	public static void main(String[] args) throws IOException {
+		File target = new File("files","string2.txt");
+		
+		Reader in = new FileReader(target);
+
+	}
+
+}

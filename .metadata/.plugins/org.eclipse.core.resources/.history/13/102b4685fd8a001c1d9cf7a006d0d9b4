@@ -1,0 +1,25 @@
+package api.lang.wrapper;
+
+public class Test01 {
+
+	public static void main(String[] args) {
+		//wrapper 클래스
+		// - 기본자료형을 클래스화 시킨 자료형
+		// - 기본자료형을 객체로 포장했다.
+		Boolean a = new Boolean(true);
+		Boolean b = new Boolean(false);
+		Boolean c = new Boolean("TrUe1");
+		Boolean d = new Boolean("True");
+		
+		System.out.println(a);
+		System.out.println(b);
+		System.out.println(c);
+		System.out.println(d);
+		
+		System.out.println("--------------------------------");
+		//객체끼리의 비교에서는 equals를 사용한다.
+		System.out.println(b==c);//일반자료형끼리 비교는 true라고 나오지만 객체비교이기때문에 false가 나온다.
+		System.out.println(b.equals(c));
+	}
+
+}

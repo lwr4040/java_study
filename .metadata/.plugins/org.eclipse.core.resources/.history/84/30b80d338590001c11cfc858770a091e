@@ -1,0 +1,23 @@
+package api.io.string;
+
+public class Test04 {
+
+	public static void main(String[] args) {
+		/*
+		 * 사용자에게 아이디와 비밀번호를 입력받고 이를 member.txt에 
+		 * 아래와 같은 형식으로 저장하려고 합니다
+		 * (예) 아이디 : admin
+		 * 비밀번호 : 1234 
+		 * 등록 성공
+		 * 아이디 : test
+		 * 비밀번호 : 2345 
+		 * 등록 성공
+		 * ====member.txt====
+		 *  admin/1234
+		 *  test/2345
+		 */	
+		//(심화) 중복 판정을 할 수 있을까?
+
+	}
+
+}

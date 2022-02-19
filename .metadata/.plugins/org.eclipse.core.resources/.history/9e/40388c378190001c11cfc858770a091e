@@ -1,0 +1,14 @@
+package api.io.singlebyte;
+
+import java.io.File;
+
+public class Test01 {
+
+	public static void main(String[] args) {
+		File target = new File("files","single.txt");
+		
+		//target에 내용 작성(출력)
+		OutputStream out = new FileOutputStream(target);
+	}
+
+}

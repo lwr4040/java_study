@@ -1,0 +1,15 @@
+package api.util.date;
+
+public class Test03 {
+
+	public static void main(String[] args) {
+		//Format				형식
+		//SimpleDateFormat		날짜형식
+		//DecimalFormat			숫자형식
+		
+		int a = 12345678;
+		double b = 1234.5678;
+
+	}
+
+}

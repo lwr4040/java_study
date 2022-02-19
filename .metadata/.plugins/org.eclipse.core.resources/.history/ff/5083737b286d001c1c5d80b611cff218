@@ -1,0 +1,10 @@
+package variable;
+
+public class Test01 {
+
+	public static void main(String[] args) {
+		int a = 20;
+		System.out.println(a);
+	}
+
+}

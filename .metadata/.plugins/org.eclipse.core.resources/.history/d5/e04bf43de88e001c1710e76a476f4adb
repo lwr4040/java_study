@@ -1,0 +1,19 @@
+package api.util.collection.list;
+
+import java.util.*;
+
+public class Test01 {
+
+	public static void main(String[] args) {
+		/*
+		 * Mobile m[] = new Mobile[] {
+		 * 
+		 * };
+		 */
+		//Mobile클래스를 저장할 list는 어떻게 만드냐?
+		//list에 Mobile을 추가 ( 객체 추가 )
+		List<Mobile> m = new ArrayList<>();
+
+	}
+
+}

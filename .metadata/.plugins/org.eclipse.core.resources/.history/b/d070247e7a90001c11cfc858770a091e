@@ -1,0 +1,14 @@
+package api.util.scanner;
+
+import java.io.File;
+
+public class Test03 {
+
+	public static void main(String[] args) {
+		//파일을 읽는 스캐너
+		File target = new File("sample.txt");//파일 객체
+		
+
+	}
+
+}

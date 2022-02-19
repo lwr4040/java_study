@@ -1,0 +1,12 @@
+package api.util.scanner;
+
+public class Test01 {
+
+	public static void main(String[] args) {
+		//Scanner		텍스트(text)를 읽는 도구. 문자열, 파일, URL , 키보드 등이 될 수 있다.
+		
+		String song = "동해물과 백두산이 마르고닳도록\n하느님이 보우하사 우리나라만세";ㄴ
+
+	}
+
+}

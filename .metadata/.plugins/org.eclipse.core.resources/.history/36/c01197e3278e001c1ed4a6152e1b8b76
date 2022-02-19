@@ -1,0 +1,9 @@
+package api.util.collection.list;
+
+public class Test05 {
+
+	public static void main(String[] args) {
+		
+	}
+
+}

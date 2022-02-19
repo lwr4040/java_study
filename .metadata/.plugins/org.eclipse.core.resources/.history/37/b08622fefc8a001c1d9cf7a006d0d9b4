@@ -1,0 +1,16 @@
+package api.lang.wrapper;
+
+public class Test01 {
+
+	public static void main(String[] args) {
+		//wrapper 클래스
+		// - 기본자료형을 클래스화 시킨 자료형
+		// - 기본자료형을 객체로 포장했다.
+		Boolean a = new Boolean(true);
+		Boolean b = new Boolean(false);
+		Boolean c = new Boolean("TrUe1");
+		Boolean d = new Boolean("True");
+
+	}
+
+}

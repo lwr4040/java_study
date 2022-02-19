@@ -1,0 +1,5 @@
+package api.util.collection.set;
+
+public class Info {
+
+}

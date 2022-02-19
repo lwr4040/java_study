@@ -1,0 +1,16 @@
+package api.util.collection.list;
+
+import java.util.*;
+
+public class Test01 {
+
+	public static void main(String[] args) {
+		// List - 데이터의 중복이 허용되고 데이터의 순서가 유지되는 데이터의 목록을
+		// 관리하는 컬렉션
+		// - 확장형 배열
+		List<String> list = new ArrayList<String>();
+		
+
+	}
+
+}

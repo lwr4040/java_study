@@ -1,0 +1,15 @@
+package api.util.collection.list;
+
+public class Mobile {
+//	Main.java	main() 메소드를 가지는 클래스
+//	Mobile		휴대전화 클래스
+//		(항목) 이름, 통신사, 가격
+//		(메소드) disp(출력)
+//		(생성자) 알아서~
+	private String name,tel;
+	private int price;
+	
+	public Mobile(String name,String tel,int price) {
+		
+	}
+}

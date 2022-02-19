@@ -1,0 +1,14 @@
+package api.util.collection.list;
+
+public class Test01 {
+
+	public static void main(String[] args) {
+		/*
+		 * Mobile m[] = new Mobile[] {
+		 * 
+		 * };
+		 */
+
+	}
+
+}

@@ -1,0 +1,14 @@
+package api.io.string;
+
+import java.io.*;
+
+public class Test02 {
+
+	public static void main(String[] args) throws IOException {
+		//문자열을 전용통로로 이용하기 편한 입/출력
+		File target = new File("files","string2.txt");
+		Writer out =new FileWriter(target);
+		PrintWriter printer = new PrinterWriter(out);
+	}
+
+}

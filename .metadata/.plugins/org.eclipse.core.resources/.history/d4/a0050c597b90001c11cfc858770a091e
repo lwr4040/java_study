@@ -1,0 +1,17 @@
+package api.util.scanner;
+
+import java.io.IOException;
+import java.net.URL;
+import java.util.Scanner;
+
+public class Test04 {
+
+	public static void main(String[] args) throws IOException {
+		//URLÀ» ÀÐ´Â Scanner
+		
+		URL url = new URL("http://www.naver.com");
+		Scanner sc =new Scanner(url.openStream(),"UTF-8");
+
+	}
+
+}

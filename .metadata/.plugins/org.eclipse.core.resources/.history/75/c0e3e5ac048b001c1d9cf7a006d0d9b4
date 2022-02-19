@@ -1,0 +1,16 @@
+package api.lang.string;
+
+public class Test01 {
+
+	public static void main(String[] args) {
+		//String 클래스
+		// - JAVA에서 문자열을 총괄하는 클래스
+		// - String과 Byte는 서로 떨어질 수 없는 관계
+		
+		String a ="Hello";//auto - boxing : 사용자의 편의를 위해서 만들었다.
+		String b = new String("Hell0");
+		
+		char[] chs = new char[] {'H','e','L','L','o'};
+	}
+
+}

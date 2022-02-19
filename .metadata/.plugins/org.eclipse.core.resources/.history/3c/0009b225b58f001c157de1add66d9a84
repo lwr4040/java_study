@@ -1,0 +1,18 @@
+package api.util.collection.map;
+
+import java.util.*;
+
+public class Test03 {
+
+	public static void main(String[] args) {
+		// 이름과 전화번호를 저장하고 관리 Map으로 관리하기...
+		// 데이터 추가 , 삭제 , 수정 , 보기
+				
+		Map<String,String> map = new HashMap<>();
+		Scanner sc = new Scanner(System.in);
+		String name = null;
+		String tel = null;
+
+	}
+
+}
